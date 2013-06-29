@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestDrive" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/save"
+            style="?android:attr/buttonStyleSmall"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+            android:onClick="onSaveClick"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/load"
+            style="?android:attr/buttonStyleSmall"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+            android:onClick="onLoadClick"
+            android:text="Load One" />
+
+        <Button
+            android:id="@+id/loadAll"
+            style="?android:attr/buttonStyleSmall"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+            android:onClick="onLoadAllClick"
+            android:text="Load All" />
+
+        <Button
+            android:id="@+id/query"
+            style="?android:attr/buttonStyleSmall"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+            android:onClick="onQueryClick"
+            android:text="Load Query" />
+
+        <Button
+            android:id="@+id/delete"
+            style="?android:attr/buttonStyleSmall"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+            android:onClick="onDeleteClick" 
+            android:text="Delete One" />
+
+        <ProgressBar
+                android:id="@+id/refresh_progress"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

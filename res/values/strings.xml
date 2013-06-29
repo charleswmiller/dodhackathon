@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ATCL</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_status">StatusActivity</string>
+    <string name="title_activity_field_strip">FieldStripActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+	<string name="title_activity_testdrive">TestDriveActivity</string>
+	
+	<string-array name="mre_array">
+        <item>Sandwich, Bacon Cheddar : Menu 1</item>
+        <item>Sandwich, Pepperoni : Menu 1</item>
+        <item>Sandwich, Honey Barbecue Beef : Menu 1</item>
+    </string-array>
+    
+	<string-array name="mre_fieldstrip_array">
+        <item>Chicken Breast Fillets, Garlic and Herb: Menu 9</item>
+        <item>Sandwich, Bacon Cheddar: Menu 1</item>
+    </string-array>
+</resources>
